@@ -35,6 +35,7 @@
                         </tbody>
                     </table>
                 </div>
+                {{ $corredores->links() }}
             </div>
         </div> 
     </div> 
