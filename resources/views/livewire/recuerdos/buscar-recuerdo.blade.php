@@ -29,5 +29,10 @@
         <div class="d-flex justify-content-end">
             {{-- <img src="{{ asset('assets/Logo_Team_GatoradePersonajes.png') }}" alt=""> --}}
         </div>
+    </div> 
+    <div class="foto-container">
+        <div class="foto">
+            <img src="{{ asset('assets/example.jpg') }}" alt="">
+        </div>
     </div>
 </div>

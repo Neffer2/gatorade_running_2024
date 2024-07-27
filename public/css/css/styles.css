@@ -2,7 +2,12 @@
     box-sizing: border-box;
 }
 
+html {
+    /* height: 100%; */
+}
+
 body {
+    /* height: 100%; */
     margin: 0 !important;
     padding: 0 !important;
     background-image: url('../../assets/BG.png');
@@ -91,3 +96,23 @@ input[type="text"] {
     right: -10%;
 }
 
+.foto-container {
+    margin: 2rem 0;
+    padding: 2rem 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foto {
+    border-radius: 5px;
+    padding: 3px;
+    height: 23rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.foto img {
+    height: 100%;
+}
