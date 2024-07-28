@@ -7,11 +7,11 @@ use App\Models\Corredor;
 
 class BuscarRecuerdo extends Component
 {
-    // Models
+    // Models 
     public $documento;
-
+ 
     // Useful vars
-    public $recuerdo;
+    public $recuerdo; 
 
     public function render()
     {
@@ -20,6 +20,5 @@ class BuscarRecuerdo extends Component
 
     public function getRecuerdo(){
         $this->recuerdo = Corredor::where('document', $this->documento)->first();
-        dd($this->recuerdo);
     }
 }

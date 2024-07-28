@@ -8,8 +8,6 @@ html {
 
 body {
     /* height: 100%; */
-    margin: 0 !important;
-    padding: 0 !important;
     background-image: url('../../assets/BG.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,8 +76,8 @@ input[type="text"] {
 }
 
 .btn {
-    padding: 0 5rem;
-    border-color: #fff;
+    padding: .1rem 5rem;
+    border-color: #000;
     border-radius: 5rem;
 }
 
@@ -97,8 +95,8 @@ input[type="text"] {
 }
 
 .foto-container {
-    margin: 2rem 0;
-    padding: 2rem 3rem;
+    margin: 2rem 0 0;
+    padding: 2rem 3rem 0 3rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -111,8 +109,51 @@ input[type="text"] {
     height: 23rem;
     background-color: #fff;
     overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.foto img {
-    height: 100%;
+.download-container {
+    padding: 0 4.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-container {
+    margin: 1.5rem 0;
+    padding: 0 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-container img {
+    height: 1.5rem;
+    filter: invert(100%) sepia(57%) saturate(0%) hue-rotate(233deg) brightness(110%) contrast(101%);
+}
+
+.separator {
+    margin: .5rem 3rem;
+    border: 1px solid #000;
+}
+
+.copy-container {
+    margin: 1rem 0;
+    padding: 0 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.copy-container p {
+    font-size: 12px;
+}
+
+@media (min-width: 900px) {
+    body {
+        padding: 0rem 33% !important;
+    }
 }
