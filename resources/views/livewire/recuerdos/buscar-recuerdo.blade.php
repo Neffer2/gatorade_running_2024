@@ -32,20 +32,20 @@
             <div class="foto" style="background-image: url({{ asset('assets/'.$recuerdo->picture.'.jpg') }});"></div>
         </div>
         <div class="download-container">
-            <a class="btn btn-primary mt-3" style="position: relative;">
+            <a class="btn btn-primary mt-3" style="position: relative;" href="{{ asset('assets/'.$recuerdo->picture.'.jpg') }}" download>
                 <img src="{{ asset('assets/Descargar.svg') }}" height="15" style="position: absolute; left: 25%; bottom: 25%;">
                 DESCARGAR
             </a>
         </div>
         <div class="social-container">
-            <img src="{{ asset('assets/X.svg') }}">
-            <img src="{{ asset('assets/IG.svg') }}">
-            <img src="{{ asset('assets/FB.svg') }}">
+            <a href="https://x.com/GatoradeCol" target="_blank"><img src="{{ asset('assets/X.svg') }}"></a>
+            <a href="https://www.instagram.com/gatoradecolombia/" target="_blank"><img src="{{ asset('assets/IG.svg') }}"></a>
+            <a href="https://www.facebook.com/gatoradecolombia/" target="_blank"><img src="{{ asset('assets/FB.svg') }}"></a>
         </div>
         <div class="separator"></div>
         <div class="copy-container">
-            <p class="text-center">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum velit, iusto facilis ab ullam, distinctio aspernatur magnam laborum, id non mollitia. Sapiente laborum veniam possimus provident voluptatibus eligendi quod.
+            <p class="text-center text-white">
+                Gatorade 2024. Todos los derechos reservados. | <a href="#" class="text-white">Términos y Condiciones</a> | <a href="#" class="text-white">Política de Privacidad</a>
             </p>
         </div>
     @else 
