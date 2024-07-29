@@ -32,7 +32,7 @@
             <div class="foto" style="background-image: url({{ asset('assets/'.$recuerdo->picture.'.JPG') }});"></div>
         </div>
         <div class="download-container">
-            <a class="btn btn-primary mt-3" style="position: relative;" href="{{ asset('assets/'.$recuerdo->picture.'.jpg') }}" download>
+            <a class="btn btn-primary mt-3" style="position: relative;" href="{{ asset('assets/'.$recuerdo->picture.'.JPG') }}" download>
                 <img src="{{ asset('assets/Descargar.svg') }}" height="15" style="position: absolute; left: 25%; bottom: 25%;">
                 DESCARGAR
             </a>
