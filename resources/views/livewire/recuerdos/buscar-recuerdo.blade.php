@@ -29,7 +29,7 @@
     </div> 
     @isset($recuerdo)
         <div class="foto-container">
-            <div class="foto" style="background-image: url({{ asset('assets/'.$recuerdo->picture.'.jpg') }});"></div>
+            <div class="foto" style="background-image: url({{ asset('assets/'.$recuerdo->picture.'.JPG') }});"></div>
         </div>
         <div class="download-container">
             <a class="btn btn-primary mt-3" style="position: relative;" href="{{ asset('assets/'.$recuerdo->picture.'.jpg') }}" download>
